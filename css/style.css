@@ -1,0 +1,92 @@
+/* Base CSS */
+*{
+    margin:0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: 700;
+}
+html,body { height: 100%; padding: 0;margin: 0;}
+a{text-decoration: none;color: inherit;}
+a:hover { text-decoration: none; }
+
+.f-right{float: right;}
+.f-left{float: left;}
+.c_1{clear: both;margin:10px;display: block;}
+.c_2{clear: both;margin:20px;display: block;}
+.c_3{clear: both;margin:30px;display: block;}
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+ body{
+    font-size: 14px;
+    background: #fff;
+ }
+/*Default css*/
+
+.slider_active img {
+    height: 400px;
+    width: 100%;
+}
+.slider_active .owl-nav div {
+    background: rgba(255, 255, 255, .5);
+    font-size: 20px;
+    height: 30px;
+    padding-left: 12px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    border-radius: 4px;
+}
+.slider_active .owl-next {
+    left: auto;
+    position: absolute;
+    right: 5px;
+}
+.slider_active .owl-prev {
+    left: 6px;
+}
+.slider_active .owl-dots{
+	text-align: center;
+	
+}
+.slider_active .owl-dot {
+  background: red none repeat scroll 0 0;
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+  margin: 0 2px;
+  text-align: center;
+  width: 10px;
+}
+.owl-dot.active {
+  background: green none repeat scroll 0 0;
+}
+.slider_active .singleitems{
+	position: relative;
+}
+.slider_text_1, .slider_text_2 {
+  background: #fff none repeat scroll 0 0;
+  font-size: 20px;
+  left: 25%;
+  padding: 10px 30px;
+  position: absolute;
+  top: 22%;
+}
+.slider_text_2{
+	left: auto;
+	right: 25%;
+	background: gray;
+}
